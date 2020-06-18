@@ -33,7 +33,7 @@ export default [
   {
    
     text:
-      "On the first date I will carve our initials in a tree. It's the most romantic way to let you know I havefixing stuff.    questions. a knife.focus on the  ",
+      "On the first date I will carve our initials in a tree. It's the most romantic way to let you know I havefixing stuff.a knife focus on the  git ",
       page:
       "1/5",
 

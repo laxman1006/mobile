@@ -1,19 +1,9 @@
 import React from "react";
-import { string, number, array } from "prop-types";
+import { string} from "prop-types";
 import { animated, interpolate } from "react-spring/hooks";
-import {
-  Typography,
-  makeStyles,
-  Grid,
-  Button,
-  IconButton,
-} from "@material-ui/core";
-import Carousel from "nuka-carousel";
-import ShareIcon from "@material-ui/icons/Share";
-import FavoriteIcon from '@material-ui/icons/Favorite';
 
 const Card = ({ i, x, y, rot, scale, trans, bind, data }) => {
-  const { name, age, distance, text, pics,page } = data[i];
+  const {  text,page } = data[i];
 
   return (
     <animated.div
@@ -30,8 +20,8 @@ const Card = ({ i, x, y, rot, scale, trans, bind, data }) => {
       >
         <div className="card" style={{padding:'20px'}}>
          <p> {text}</p>
-         <div class="row1" > 
-           <span class="pagesection"> {page} </span>
+         <div className="row1" > 
+           <span className="pagesection"> {page} </span>
           
                                    
                                 
